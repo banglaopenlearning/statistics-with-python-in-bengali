@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@400;500;600;700&display=swap');
 
 /* Bengali needs a little more size and line spacing than Latin text to read comfortably */
 body {
-  font-family: 'Hind Siliguri', 'Noto Sans Bengali', sans-serif;
-  font-size: 1.08rem;
-  line-height: 1.85;
+  font-family: 'Atma', 'Noto Sans Bengali', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.9;
 }
 
 h1, h2, h3, h4, .sidebar-title {
-  font-family: 'Hind Siliguri', 'Noto Sans Bengali', sans-serif;
+  font-family: 'Atma', 'Noto Sans Bengali', sans-serif;
   font-weight: 700;
   line-height: 1.4;
 }
