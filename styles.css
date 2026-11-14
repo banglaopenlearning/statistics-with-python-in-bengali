@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Atma:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@500;700&family=Tiro+Bangla&display=swap');
 
 /* Bengali needs a little more size and line spacing than Latin text to read comfortably */
 body {
-  font-family: 'Atma', 'Noto Sans Bengali', sans-serif;
-  font-size: 1.3rem;
+  font-family: 'Tiro Bangla', 'Noto Serif Bengali', serif;
+  font-size: 1.25rem;
   line-height: 1.9;
 }
 
 h1, h2, h3, h4, .sidebar-title {
-  font-family: 'Atma', 'Noto Sans Bengali', sans-serif;
+  font-family: 'Anek Bangla', sans-serif;
   font-weight: 700;
   line-height: 1.4;
 }
