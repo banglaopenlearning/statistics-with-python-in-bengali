@@ -1,0 +1,50 @@
+project:
+  type: book
+  output-dir: _book
+
+lang: bn
+
+book:
+  title: "পাইথন দিয়ে পরিসংখ্যান"
+  subtitle: "আগে ভাবো, তারপর চালাও"
+  author: "মুসাব্বির হাসান সাম্মাক"
+  # If your GitHub organization's handle is different, change it in the next two lines
+  repo-url: https://github.com/bangla-open-learning/statistics-with-python-in-bengali
+  site-url: https://bangla-open-learning.github.io/statistics-with-python-in-bengali/
+  repo-actions: [edit, issue]
+  search: true
+  chapters:
+    - index.qmd
+    - 01-mean-and-median.qmd
+  page-footer:
+    center: "বাংলায় মুক্তশিক্ষা ল্যাব · লেখা CC BY-SA 4.0 · কোড MIT"
+
+# Code runs on your computer once; the results are saved in _freeze/ and reused when publishing.
+execute:
+  freeze: auto
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+
+# Bengali labels for Quarto's built-in interface text
+language:
+  toc-title-document: "এই অধ্যায়ে"
+  toc-title-website: "এই পাতায়"
+  search-no-results-text: "কিছু পাওয়া যায়নি"
+  copy-button-tooltip: "কপি করো"
+  copy-button-tooltip-success: "কপি হয়েছে!"
+  crossref-fig-title: "চিত্র"
+  crossref-tbl-title: "সারণি"
+  crossref-ch-prefix: "অধ্যায়"
+  section-title-footnotes: "পাদটীকা"
+  section-title-references: "তথ্যসূত্র"
+  callout-tip-title: "টিপস"
+  callout-note-title: "নোট"
+  callout-warning-title: "সাবধান"
+  callout-important-title: "গুরুত্বপূর্ণ"
+  callout-caution-title: "সতর্কতা"

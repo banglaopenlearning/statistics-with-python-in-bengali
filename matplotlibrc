@@ -1,0 +1,6 @@
+# Matplotlib reads this file automatically when code runs from this folder.
+# Bengali chart labels need a Bengali font installed on your computer (Noto Sans Bengali or Hind Siliguri).
+font.family: sans-serif
+font.sans-serif: Noto Sans Bengali, Hind Siliguri, DejaVu Sans
+axes.unicode_minus: False
+figure.dpi: 110
