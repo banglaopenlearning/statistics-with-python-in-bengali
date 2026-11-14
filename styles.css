@@ -1,26 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Galada&family=Noto+Serif+Bengali:wght@400;600;700&display=swap');
+/* Ekushey Lohit: backup Bengali font */
+@font-face {
+  font-family: 'Ekushey Lohit';
+  src: url('fonts/Lohit.ttf') format('truetype');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
 
 /* Old paper and ink */
 body {
-  font-family: 'Noto Serif Bengali', serif;
+  font-family: 'Ekushey Lohit', 'Noto Serif Bengali', serif;
   font-size: 1.2rem;
   line-height: 1.9;
   background-color: #FBF6EC;
   color: #3B2F2A;
 }
 
-/* Hand-lettered chapter and section titles */
-h1, h2, .sidebar-title {
-  font-family: 'Galada', cursive;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #5A2A1E;
-}
-
-/* Smaller headings in the body font, bold */
-h3, h4 {
-  font-family: 'Noto Serif Bengali', serif;
+h1, h2, h3, h4, .sidebar-title {
+  font-family: 'Ekushey Lohit', serif;
   font-weight: 700;
+  line-height: 1.4;
   color: #5A2A1E;
 }
 
