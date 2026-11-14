@@ -9,13 +9,17 @@ book:
   subtitle: "আগে ভাবো, তারপর চালাও"
   author: "মুসাব্বির হাসান সাম্মাক"
   # If your GitHub organization's handle is different, change it in the next two lines
-  repo-url: https://github.com/bangla-open-learning/statistics-with-python-in-bengali
-  site-url: https://bangla-open-learning.github.io/statistics-with-python-in-bengali/
+  repo-url: https://github.com/banglaopenlearning/statistics-with-python-in-bengali
+  site-url: https://banglaopenlearning.github.io/statistics-with-python-in-bengali/
   repo-actions: [edit, issue]
   search: true
   chapters:
     - index.qmd
-    - 01-mean-and-median.qmd
+    - 01-research-cycle.qmd
+    - 02-what-is-statistics.qmd
+    - 03-variables-measurement.qmd
+    - 04-sampling.qmd
+    - 05-data-collection.qmd
   page-footer:
     center: "বাংলায় মুক্তশিক্ষা ল্যাব · লেখা CC BY-SA 4.0 · কোড MIT"
 
