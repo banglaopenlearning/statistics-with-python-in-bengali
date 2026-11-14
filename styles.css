@@ -1,22 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@500;700&family=Tiro+Bangla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Noto+Serif+Bengali:wght@400;600;700&display=swap');
 
-/* Bengali needs a little more size and line spacing than Latin text to read comfortably */
+/* Old paper and ink */
 body {
-  font-family: 'Tiro Bangla', 'Noto Serif Bengali', serif;
-  font-size: 1.25rem;
+  font-family: 'Noto Serif Bengali', serif;
+  font-size: 1.2rem;
   line-height: 1.9;
+  background-color: #FBF6EC;
+  color: #3B2F2A;
 }
 
-h1, h2, h3, h4, .sidebar-title {
-  font-family: 'Anek Bangla', sans-serif;
+/* Hand-lettered chapter and section titles */
+h1, h2, .sidebar-title {
+  font-family: 'Galada', cursive;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5A2A1E;
+}
+
+/* Smaller headings in the body font, bold */
+h3, h4 {
+  font-family: 'Noto Serif Bengali', serif;
   font-weight: 700;
-  line-height: 1.4;
+  color: #5A2A1E;
 }
 
 a {
-  color: #B71C2C;
+  color: #9B2C2C;
 }
 
 a:hover {
-  color: #8E1522;
+  color: #6E1F1F;
 }
