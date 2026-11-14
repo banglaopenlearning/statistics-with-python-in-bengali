@@ -34,7 +34,7 @@ format:
     theme: cosmo
     css: styles.css
     code-copy: true
-    code-overflow: wrap
+    code-overflow: scroll
     toc: true
 
 # Bengali labels for Quarto's built-in interface text

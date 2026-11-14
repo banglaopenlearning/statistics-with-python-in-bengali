@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Cascadia+Mono:wght@400;700&display=swap');
+
 /* Ekushey Lohit: backup Bengali font */
 @font-face {
   font-family: 'Ekushey Lohit';
@@ -7,17 +9,16 @@
 
 /* Old paper and ink */
 body {
-  font-family: 'Ekushey Lohit', 'Noto Serif Bengali', serif;
+  font-family: 'Belleza', 'Ekushey Lohit', 'Noto Serif Bengali', serif;
   font-size: 1.2rem;
-  line-height: 1.9;
-  background-color: #FBF6EC;
+  line-height: 1.5;
   color: #3B2F2A;
 }
 
 h1, h2, h3, h4, .sidebar-title {
-  font-family: 'Ekushey Lohit', serif;
+  font-family: 'Belleza', 'Ekushey Lohit', serif;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.5;
   color: #5A2A1E;
 }
 
@@ -27,4 +28,55 @@ a {
 
 a:hover {
   color: #6E1F1F;
+}
+
+.callout,
+.callout .callout-body,
+.callout .callout-body-container,
+.callout .callout-title-container {
+  font-size: inherit !important;
+  line-height: inherit;
+}
+
+.callout .callout-title-container {
+  font-weight: 700;
+}
+
+/* Code blocks, code output and inline code in Cascadia Mono */
+code, pre, kbd, samp,
+div.sourceCode, pre.sourceCode, pre code {
+  font-family: 'Cascadia Mono', monospace !important;
+}
+
+/* Same size as body text (Quarto shrinks code by default) */
+pre, pre code, div.sourceCode pre, code {
+  font-size: 1em !important;
+}
+
+/* Code output: a separate, labelled box under the code */
+.cell-output-stdout pre,
+.cell-output pre {
+  background-color: #F6F8FA;
+  border: 1px solid #D0D7DE;
+  border-left: 4px solid #B71C2C;
+  border-radius: 6px;
+  padding: 0.8em 1em;
+  margin-top: 0.4em;
+}
+
+/* A small "ফলাফল" label above each output */
+.cell-output-stdout::before,
+.cell-output-display::before {
+  content: "ফলাফল";
+  display: block;
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #B71C2C;
+  margin: 0.6em 0 0.2em;
+}
+
+/* Remove Quarto's own grey background inside the output so only our box shows */
+.cell-output-stdout pre code,
+.cell-output pre code {
+  background: transparent;
 }
