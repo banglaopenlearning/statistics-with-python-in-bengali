@@ -24,6 +24,7 @@ book:
     - 05-data-collection.qmd
     - 06-frequency-tables.qmd
     - 07-visualization.qmd
+    - 11-correlation.qmd
   page-footer:
     center: "বাংলায় মুক্তশিক্ষা ল্যাব · লেখা CC BY-SA 4.0 · কোড MIT"
 
