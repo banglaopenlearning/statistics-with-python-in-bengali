@@ -1,8 +1,3 @@
-```{python}
-import matplotlib.pyplot as plt
-plt.rcParams["font.sans-serif"] = ["Kohinoor Bangla", "DejaVu Sans"]
-```
-
 # সম্ভাবনা, নিয়ম আর বেইজের উপপাদ্য {#sec-probability}
 
 ::: {.callout-note appearance="simple" title="এই অধ্যায় শেষে তুমি পারবে"}
