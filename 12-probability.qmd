@@ -155,7 +155,9 @@ rng = np.random.default_rng(3)
 
 # প্রথম ২০টি টস, ১ মানে হেড আর ০ মানে টেল
 first_20 = rng.integers(0, 2, 20)
-print("প্রথম ২০টি টস", "".join("হ" if f == 1 else "ট" for f in first_20))
+print("প্রথম ২০টি টসের ফলাফল")
+print(", ".join("হেড" if f == 1 else "টেল" for f in first_20))
+print("এর মধ্যে হেড উঠেছে", first_20.sum(), "বার")
 
 fig, axes = plt.subplots(1, 2, figsize=(12, 4))
 
