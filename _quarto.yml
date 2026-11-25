@@ -27,6 +27,7 @@ book:
     - 11-correlation.qmd
     - 12-probability.qmd
     - 13-random-variables.qmd
+    - 15-normal-distribution.qmd
   page-footer:
     center: "বাংলায় মুক্তশিক্ষা ল্যাব · লেখা CC BY-SA 4.0 · কোড MIT"
 
