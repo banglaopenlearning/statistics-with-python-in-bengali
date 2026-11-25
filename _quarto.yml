@@ -27,7 +27,9 @@ book:
     - 11-correlation.qmd
     - 12-probability.qmd
     - 13-random-variables.qmd
+    - 14-binomial-poisson.qmd
     - 15-normal-distribution.qmd
+    - 16-sampling-distribution.qmd
   page-footer:
     center: "বাংলায় মুক্তশিক্ষা ল্যাব · লেখা CC BY-SA 4.0 · কোড MIT"
 
